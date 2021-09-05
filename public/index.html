@@ -10,62 +10,143 @@
     <link rel="icon" href="images/logo.png">
 </head>
 <body>
-<header class="header">
-    <div class="logo">
-        <img src="images/logo.png">
-    </div>
-    <div class="title">Introducing Spotlight
-    </div>
-    <div class="subtitle">A website template for your mobile app, powered by Notion & Super.
-    </div>
-    <div class="downloads">
-        <div class="downloads__wrap">
-            <a class="downloads__button" href="#">App Store</a>
+<div class="menu menu--fixed row">
+    <div class="menu__logo menu-logo d-none d-lg-block d-xl-block col-xl-7 col-lg-7 col-md-0 col-sm-0 col-xs-0"><a class="menu-logo__link" href="#">Spotlight</a></div>
+
+    <ul class="menu__items row col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12">
+        <li class="menu__item menu-item col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6"><a class="menu-item__link link" href="#">Reviews</a></li>
+        <li class="menu__item menu-item col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6"><a class="menu-item__link link" href="#">Duplicate</a></li>
+        <li class="menu__item menu-item col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6"><a class="menu-item__link link" href="#">Twitter</a></li>
+        <li class="menu__item menu-item col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6"><a class="menu-item__link link" href="#">Contact</a></li>
+    </ul>
+</div>
+<div class="container">
+    <header class="header">
+        <div class="header__logo logo">
+            <img class="logo__img" src="images/logo.png">
         </div>
-        <div class="downloads__wrap">
-            <a class="downloads__button" href="#">Google Play</a>
+        <div class="title">Introducing Spotlight
         </div>
-    </div>
-    <div class="rating">
-        <span class="rating__stars">⭐️⭐️⭐️⭐️⭐️</span>
-        <text class="rating__text">4.8 — 516k Ratings</text>
-    </div>
-</header>
-
-<section class="content-section">
-
-</section>
-
-<section class="content-section">
-
-</section>
-
-<section class="content-section">
-
-</section>
-
-<section class="content-section">
-
-</section>
-
-<section class="content-section">
-    <div class="title">
-        Download Spotlight
-    </div>
-    <div class="downloads">
-        <div class="downloads__wrap">
-            <a class="downloads__button" href="#">App Store</a>
+        <div class="subtitle">A website template for your mobile app, powered by <a class="link" href="#">Notion</a> &
+            <a class="link" href="#">Super</a>.
         </div>
-        <div class="downloads__wrap">
-            <a class="downloads__button" href="#">Google Play</a>
+        <div class="downloads">
+            <div class="downloads__wrap">
+                <div class="downloads__button button"><img class="button__img" src="images/icon-ios.svg"><a
+                        class="button__link link" href="#">
+                    App Store</a></div>
+                <div class="downloads__button button"><img class="button__img" src="images/icon-android.svg"><a
+                        class="button__link link"
+                        href="#"> Google Play</a>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="rating">
-        <span class="rating__stars">⭐️⭐️⭐️⭐️⭐️</span>
-        <text class="rating__text">4.8 — 516k Ratings</text>
-    </div>
-</section>
+        <div class="rating">
+            <span class="rating__stars">⭐️⭐️⭐️⭐️⭐️</span>
+            <text class="rating__text"><a class="link" href="#">4.8 — 516k Ratings</a></text>
+        </div>
+    </header>
 
+    <section class="content row">
+        <div class="content__wrap content__wrap--flex-end col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="content__item content-item">
+                <img class="content-item__image" src="images/scr-super.png">
+            </div>
+        </div>
+        <div class="content__wrap content__wrap--flex-start col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="content__item content-item">
+                <div class="content-item__title">Super</div>
+                <div class="content-item__text">Turn your Notion pages into fast, functional websites with custom
+                    domains,
+                    fonts, analytics, and more.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content row">
+        <div class="content__wrap content__wrap--flex-end col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="content__item content-item">
+                <div class="content-item__title">Market</div>
+                <div class="content-item__text">Shop from our Super-powered Notion templates, resources, and more.
+                    Includes
+                    free
+                    & paid options.
+                </div>
+            </div>
+        </div>
+        <div class="content__wrap content__wrap--flex-start col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="content__item content-item">
+                <img class="content-item__image" src="images/scr-market.png">
+            </div>
+        </div>
+    </section>
+
+    <section class="content row">
+        <div class="content__wrap  content__wrap--flex-end col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="content__item content-item">
+                <img class="content-item__image" src="images/scr-guides.png">
+            </div>
+        </div>
+        <div class="content__wrap content__wrap--flex-start col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="content__item content-item">
+                <div class="content-item__title">Guides</div>
+                <div class="content-item__text">Tutorials & walkthroughs on how to use, integrate, extend, and power up
+                    your
+                    Super sites.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content row">
+        <div class="content__wrap content__wrap--flex-end col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="content__item content-item">
+                <div class="content-item__title">Icons</div>
+                <div class="content-item__text">A simple, beautiful collection of more than 250 icons that integrate
+                    seamlessly
+                    with Notion.
+                </div>
+            </div>
+        </div>
+        <div class="content__wrap content__wrap--flex-start col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="content__item content-item">
+                <img class="content-item__image" src="images/scr-icons.png">
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="title">
+            Download Spotlight
+        </div>
+        <div class="downloads">
+            <div class="downloads__wrap">
+                <div class="downloads__button button"><img class="button__img" src="images/icon-ios.svg"><a
+                        class="button__link link" href="#">
+                    App Store</a></div>
+                <div class="downloads__button button"><img class="button__img" src="images/icon-android.svg"><a
+                        class="button__link link"
+                        href="#"> Google Play</a>
+                </div>
+            </div>
+        </div>
+        <div class="rating">
+            <span class="rating__stars">⭐️⭐️⭐️⭐️⭐️</span>
+            <text class="rating__text"><a href="#">4.8 — 516k Ratings</a></text>
+        </div>
+    </section>
+</div>
+<footer class="footer">
+    <div class="menu menu--footer">
+        <ul class="menu__items row">
+            <li class="menu__item menu-item col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12"><a class="menu-item__link link" href="#">Reviews</a></li>
+            <li class="menu__item menu-item col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12"><a class="menu-item__link link" href="#">Duplicate</a></li>
+            <li class="menu__item menu-item col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12"><a class="menu-item__link link" href="#">Twitter</a></li>
+            <li class="menu__item menu-item col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12"><a class="menu-item__link link" href="#">Contact</a></li>
+        </ul>
+    </div>
+</footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
