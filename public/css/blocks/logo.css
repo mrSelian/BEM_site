@@ -1,0 +1,9 @@
+.logo {
+    margin: 20px 5px;
+}
+
+.logo__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
