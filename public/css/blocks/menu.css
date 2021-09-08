@@ -1,10 +1,11 @@
 .menu {
     z-index: 99;
-    width: 100%;
+    width: 106%;
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .menu--fixed {
@@ -12,14 +13,14 @@
     position: fixed;
     background-color: white;
     border-bottom: 1px solid transparent;
-    box-shadow: 0 10px 20px -10px rgb(0 0 0 / 10%);
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.1);
 }
 
 .menu--footer {
     justify-content: center;
 }
 
-.menu-logo{
+.menu-logo {
     text-align: center;
 }
 

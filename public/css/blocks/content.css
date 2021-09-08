@@ -1,23 +1,23 @@
-.content {
+.content-frame {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.content__wrap {
+.content__slot {
     display: flex;
     align-items: center;
 }
 
-.content__wrap--flex-start {
+.content__slot--flex-start {
     justify-content: flex-start;
 }
 
-.content__wrap--flex-end {
+.content__slot--flex-end {
     justify-content: flex-end;
 }
 
-.content__item {
+.content-frame__item {
     margin: 10px 5px;
 }
 
